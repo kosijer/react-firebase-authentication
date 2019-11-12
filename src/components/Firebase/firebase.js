@@ -27,7 +27,7 @@ const config = process.env.NODE_ENV === "production" ? prodConfig : devConfig;
 class Firebase {
   constructor() {
     app.initializeApp(config);
-    app.analytics();
+    // app.analytics();
   }
 }
 export default Firebase;
